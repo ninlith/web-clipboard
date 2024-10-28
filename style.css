@@ -1,0 +1,20 @@
+textarea, .output {
+  width: 330px;
+  height: 80px;
+  border-radius: 4px;
+  font-family:monospace;
+  white-space: pre;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  border: 2px solid #ccc;
+  resize: none;
+}
+
+.output {
+  border: 2px dashed #ccc;
+  margin: 5px 0px;
+  overflow: auto;
+}
